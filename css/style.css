@@ -141,6 +141,8 @@ body {
 .card_bottom img {
   width: 33px;
   height: 33px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
 }
 
 .card_bottom p {
