@@ -98,14 +98,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 144px;
+  padding-top: 132px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--Very-dark-blue-line);
   height: 19px;
 }
 
 .wrapper .card__price {
-    display: flex;
+  display: flex;
+}
+
+.wrapper .card__price img {
+  width: 11px;
+  height: 18px;
 }
 
 .wrapper .card__price span {
@@ -119,7 +124,12 @@ body {
 }
 
 .wrapper .card__countdown {
-    display: flex;
+  display: flex;
+}
+
+.wrapper .card__countdown img {
+    height: 16px;
+    width: 16px;
 }
 
 .wrapper .card__countdown span {
@@ -131,7 +141,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   padding-left: 9.03px;
-
 }
 
 .card_bottom {
@@ -187,6 +196,6 @@ body {
   }
 
   .card_bottom {
-      padding-top: 16px;
+    padding-top: 16px;
   }
 }
